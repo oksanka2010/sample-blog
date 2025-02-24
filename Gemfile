@@ -67,4 +67,5 @@ gem "devise"
 group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'shoulda-matchers'
 end
