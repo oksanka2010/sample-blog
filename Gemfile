@@ -63,3 +63,8 @@ group :test do
 end
 
 gem "devise"
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'capybara'
+end
